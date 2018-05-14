@@ -23,6 +23,7 @@ INSERT INTO [Account] (AcctNo,Fname,Lname,CreditLimit,Balance) VALUES
 INSERT INTO [Log] (OrigAcct,LogDateTime,RecAcct,Amount) VALUES
 (3,'2018-05-14 07:43:00 PM',1,1000),
 (1,'2018-05-14 07:43:00 PM',2,20),
-(2,'2018-05-15 07:43:00 PM',1,20)
+(2,'2018-05-15 07:43:00 PM',1,20),
+(2,'2018-04-15 07:43:00 PM',NULL ,-30)
 
 END;
